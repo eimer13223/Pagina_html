@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesiónion</title>
+    <style>
+        /* Estilos para centrar todos los elementos */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 20px; /* Espacio en la parte superior */
+            font-size: 24px; /* Tamaño de fuente más grande */
+			}
+
+        /* Estilo para centrar el formulario de inicio de sesión */
+        #login {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido</h1>
+    </header>
+
+    <main>
+        <section id="login">
+            <h1>Iniciar Sesión</h1>
+			<p>
+				<p>
+            <form id="login-form">
+                <label for="username">Usuario:</label>
+				<p>
+				<p>
+                <input type="text" id="username" name="username" required>
+				<p>
+				<p>
+                <label for="password">Contraseña:</label>
+				<p>
+				<p>
+                <input type="password" id="password" name="password" required>
+                <p>
+				<p>
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+        </section>
+
+        <section id="menu" style="display: none;">
+            <h2>Menú</h2>
+            <ul>
+                <li><a href="#">Opción 1</a></li>
+                <li><a href="#">Opción 2</a></li>
+                <li><a href="#">Opción 3</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
